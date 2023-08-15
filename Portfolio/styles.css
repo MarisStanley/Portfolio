@@ -1,0 +1,74 @@
+.background {
+    background-color: #2F392F;
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+    font-size: 60px;
+    color: white;
+    font-family: 'Prata', serif;
+    margin: 0;
+}
+
+img {
+    height: 86.5vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+}
+
+.nav-item .nav-link {
+    color: white;
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
+
+.nav-item .nav-link :hover {
+    color: white;
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+.box {
+    position: absolute;
+    height: 55vh;
+    width: 55vh;
+    border: 19px solid #272927;
+}
+
+.words {
+    line-height: 150%;
+    z-index: 1;
+    font-size: 40px;
+    color: white;
+    font-family: 'Prata', serif;
+}
+
+
+
+@media (max-width: 1125px) {
+
+}
+
+
+
+
+
+
+
+
+
+
